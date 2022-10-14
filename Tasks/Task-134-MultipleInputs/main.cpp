@@ -1,5 +1,7 @@
 #include "uop_msb.h"
+#include <iostream>
 using namespace uop_msb;
+using namespace std;
 
 BusIn buttons(BTN1_PIN, BTN2_PIN, BTN3_PIN, BTN4_PIN);
 // DigitalIn buttonA(BTN1_PIN);    //ButtonA is synonamous with buttons[0]
