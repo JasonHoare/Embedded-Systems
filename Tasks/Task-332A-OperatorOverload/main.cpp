@@ -86,7 +86,8 @@ public:
     {
         // Return a true if u is equal to `this`
         // ** TO BE DONE BY THE STUDENT **
-        return false;
+        if(this->getValue() == u.getValue()){return true;}
+        else {return false;}
     }
 
     operator double() {
@@ -112,6 +113,12 @@ int main()
 
     DoubleNumber sum = (n0 + n1 + n2 + n3);
     cout << sum << endl;
+    cout << "Are n2 and n3 equal? ";
+    if(n2 == n3){cout << "Yes" << endl;}
+    else{ cout << "No" << endl;}
+    cout << "Are n1 and n3 equal? ";
+    if(n1 == n3){cout << "Yes" << endl;}
+    else{ cout << "No" << endl;}
 
     while (true) {
 
